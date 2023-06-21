@@ -1,0 +1,37 @@
+Q1. What is Emmet?
+=> Emmet is an add-on/ plug-in for text-editor. where the shortcuts type on expanding gives more code that is less error prone, robust and missing tags.(In HTML AND CSS)
+
+Q2. Difference between a Library and Framework?
+=> Library is a collection of packages that have operations. where framework is floa and architecure of the application. with minimum effort we take the library into the application and developer use the library methods whenever he wants framework tells what it need and calls the code written by developer on need.
+
+Q3. What is CDN? Why do we use it?
+=> content delivery network is group of connected servers helps to deliver the content fast and reliable.
+
+Q4. Why is React known as React?
+=> React is called React beacause of its reactive nature to the change in data and states accrorss the appliction and builds the UI based on it.
+
+Q5. What is crossorigin in script tag?
+=> It sets the mode of request to CORS request. The purpose of this is to get the data from cross origin(other domain/differentports). it checks whether to allow the resource sharing and is it safe to do so.
+
+Q6. What is diference between React and ReactDOM
+=> React contains the react source, props, states and different things.. where as the react dom is the glue between the react and dom and helps in dom manipulations.
+
+Q7. What is difference between react.development.js and react.production.js files via CDN?
+=> Here dvelopment has the many things that has debugging, source maps, readability, comments and other.. where as the production is minimized version of the developemnt and 3X times faster than the development build.
+
+Q8. What is async and defer? - see my Youtube video ;)
+=> async and defer are way to load the the javascript and parse the file. 
+async- loads and parses the file without waiting for the complete html parseing
+defer- loads the file but parses once after the complete parsing of html is done.
+
+● Learn about Arrow Functions before the next class
+
+Arrow functions are the shorthand form of writing normal functions.
+its cant be used with this inside the object.
+it can be used withe setTimeout and others.
+it is bounded to the where its is defined rather than calling place.
+syntax:
+const fun1 = ()=>
+{
+   function body
+}
