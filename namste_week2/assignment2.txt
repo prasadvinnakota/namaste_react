@@ -1,0 +1,57 @@
+Q. Why not cdn links?
+=> node modules will be on our server. so get it from there is more faster than a cdn. and also version changes can be tracked.
+
+Q. What is npm?
+=> NPM is a node package manager. we want many packages to support the react to build the application. we can install the required packages and maintains it by npm.
+
+Q.what is parcel or webpack?
+=> These are the bundlers that helps to make a build for dev/production with so many advantages like creating a single file from many files. This will help to get the production build and directly run on the browsers. 
+
+Q. What is parcel-cache?
+=> Parcel-cache is takes some space on the disk. it will help us to reduce the build time in the second time we restart the server with changes. it will track all the changes and only updates that relative to that. 
+
+Q.What is npx?
+=> It helps in the executing the npm package.
+
+Q.what is difference between the dev-dependency and dependency?
+=> dependency are packages that needs by the production to function correctly  used in the production, where has the dev-dependency are the packages that the developer need during development.
+
+Q.What is tree-shaking?
+=> tree-shaking is one of the helping things to remove unused codes and imports from the production.
+
+Q.What is hot module replacement?
+=> Parcel reloads the whole page on changes, but in some cases parcel helps to reload the content which is changes only. By having its state retained. only updating the modules at runtime.
+
+Q.What is 5 super powers of parcel and explain 3 of them?
+=>HRM, Cleaning the code, Parcel cache, minifying the code, Image optimization, compatible with older versions, compression.
+
+minify:- changeing the ong code to less my removing unused, cleaning console, white spaces, renaming variables and many more that helps the app more performant.
+
+Image-optimazation:- Images takes so much time to load on the screen, loss less image optimization with resizing, fomatting--etc.
+
+compatible with other versions:- we can add the browser list that makes it compatible with other 
+
+Q. what is .gitignore? what should we add or not add into it?
+=>it ignores the folder/files to push to git repo. we will add all the production needed foldersa nd files. while we dont add which can be created using the already there or not needed files.
+
+Q. Package.json vs package-lock.json?
+=>Package.json contains information about the dependencies for our project and also other information about the project but package-lock.json is file that created with the locked version of dependencies we use in our project.
+
+Q.why shouldnt we modify the package-lock.json?
+=>It contains the information regarding the locked version of the dependency when it was created. ifwe change it would be a problem with the distributed environment working.
+
+Q. what is node modules? is it good idea to push node modules?
+=> Node modules containes the dependencies and sub dependencies that is require for the project. it is not a great idea to create it as it can created in server by package.json file.
+
+Q. What is the dist folder?
+=> It is the places where the development or production build is there. we can directly use this in the browser.
+
+Q. what is browserslist?
+=>Application compatibility with the versions of browsers.
+
+Q. caret vs tilda?
+=> Tilda-> patches in version changes
+   caret->minor version changes
+
+Q.tyeps in script tag?
+=> module, a class javascript, data block, import map.
