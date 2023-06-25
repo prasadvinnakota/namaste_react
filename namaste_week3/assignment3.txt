@@ -1,0 +1,13 @@
+Q.what is jsx?
+=>JSX was a fancy way of html, it was created by the fackbook engineers to get react syntax more easy.
+
+Q.Superpowers of JSX?
+=>readability,maintainability,xss free, easy
+
+Q.role of type attribute in script? what different values?
+=>role is to say is the script is class script/module/import map. values are = text/javascript,module,impormap,--etc
+
+Q.{TitleComponet}, {<TitleComponent/>}, {<TitleComponent><TitleComponent/>} difference in jsx?
+=> {TitleComponet} :- this will throw an error if title componet is a functional component, if varaiable it will show value
+=>{<TitleComponent/>}:- will render the component.
+=>{<TitleComponent><TitleComponent/>}:- will render the component

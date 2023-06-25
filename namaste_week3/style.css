@@ -1,0 +1,57 @@
+
+*
+{
+    padding:0;
+    margin:0;
+}
+#root
+{
+    height: 100vh;
+}
+
+#container
+{
+    height: 10vh;
+    width:100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    position: relative;
+    color: grey;
+}
+
+#company-profile
+{
+    flex:1;
+    height:60%;
+    width:50px;
+    position:absolute;
+    left:0;
+    margin:10px;
+}
+
+#searchcomponent
+{
+    flex:2;
+    height:60%;
+    width:20%;
+    position:absolute;
+    left:40%;
+
+}
+
+#userIcon
+{
+    flex:1;
+    height:60%;
+    width:60px;
+    position:absolute;
+    right:0;
+    margin:10px;
+    margin-top: 15px;
+    cursor: grab;
+
+}
+
+
+

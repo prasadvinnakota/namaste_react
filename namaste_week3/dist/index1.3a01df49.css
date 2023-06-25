@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100vh;
+}
+
+#container {
+  color: gray;
+  justify-self: center;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  position: relative;
+}
+
+#company-profile {
+  flex: 1;
+  width: 50px;
+  height: 60%;
+  margin: 10px;
+  position: absolute;
+  left: 0;
+}
+
+#searchcomponent {
+  flex: 2;
+  width: 20%;
+  height: 60%;
+  position: absolute;
+  left: 40%;
+}
+
+#userIcon {
+  cursor: grab;
+  flex: 1;
+  width: 60px;
+  height: 60%;
+  margin: 15px 10px 10px;
+  position: absolute;
+  right: 0;
+}
+
+/*# sourceMappingURL=index1.3a01df49.css.map */
