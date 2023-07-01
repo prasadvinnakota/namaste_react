@@ -1,0 +1,35 @@
+Q. is JSX is mandatory for react?
+=> No, we can write react using createElement also. JSX is syntatical sugar to write react.
+
+Q. Is ES6 mandatory for react?
+=> No, it is not mandatory.
+
+Q.How can i write comments in JSX?
+=> {} it allows us to have javascript code, now // helps in comment so we can use like this {//}.
+
+Q. What is <React.Fragment></React.Fragment> and <></>?
+=>It is the empty tag thing. it provides wrap the jsx without div.
+
+Q. What is virtual DOM?
+=> It is the copy of the DOM. that is not actual dom.
+
+Q.What is reconciliation in react?
+=> reconciliation is technique which uses diff algorithm to know the/ compare between two tress and do changes in the effiecient way.
+
+Q. what isthe react fiber?
+=> it is simply the reimplementatio of cor algorithm, it is the unit of work. helps in scheduling the work,like abort, process, restart...etc.
+
+=>It will divide the rendering into chunks and spread it over multiple frames. helps in incremental rendering.
+
+Q. Why do we need keys in react, when do we need.
+=> Keys can be uniquely identify in the react, we need them when the siblings are of same tag.
+
+Q. Can we use indwex as keys in react.
+=> yes we can use them but there are some complications when sorted and other opertions.
+
+Q.what are props in react. way to pass.
+=> props are used to pass the data from one to othe component, 
+1.with props 2. {} destructuring 3.using spread operator...etc
+
+Q.What isconfig driven ui.
+=>the ui layout is based on the config file or from file from Database config.
