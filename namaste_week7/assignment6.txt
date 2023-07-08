@@ -1,0 +1,15 @@
+Q. Various ways to add images with code examples?
+=> usingcdn cloudinary or locally by creating a assets image folder.
+
+Q.What will be output of console.log(useState())?
+=>It was the array with 2 things undefined and setState function.
+
+Q.UseEffect behaviour without dependency array?
+=>always excute on the state changes.
+
+Q.What is spa?
+=>It is having single document and updatin the body of it based on the conditions and routing.
+
+Q. What is client side vs server side? 
+=>The html will be loaded from the server side where as client side willdo the scripting and dynamic changes from the server side.
+

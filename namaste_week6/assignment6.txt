@@ -1,0 +1,27 @@
+Q. what is microservice?
+=> It is the architecture of building web application divides into services
+=> It is the simple service that is build using some server side language/client side language. 
+
+Q.what is monolith architeture?
+=> It is the single application hat require only one deployment. We have one code base.
+
+Q. What is the difference between monolith and microservice?
+=>monolith has single code base and maintaince is tough but whereas microsevices and more code bases.
+
+Q. why do we need useEffect hook?
+=>It is the hook that helps in performing side effects, fetch data, updating dom, and also have react life cycle methods.
+
+Q.what is shimmer ui?
+=>It is the design technique helps to show the outline of loading rather than real data while loading or rendering ui.
+
+Q. What is JS Expression vs JS Statement?
+=>Expession gives some value like condition rendering and statement is like let a=6 is doing or has some side effects.
+
+Q.What is conditional rendering? example of it?
+=>Based on the condition the ui getsrendered, {true?(<div>ram></div>):(<p>rajaa</p>)}
+
+Q. what is asyn and await?
+=> it is used to handle asynchronous requests, apis, where we will make the code synchrous by using wait
+
+Q.const json = await data.json() what is this?
+=>it helps in converting the readble screen to json object 

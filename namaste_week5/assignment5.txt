@@ -1,0 +1,14 @@
+Q.what is the differenvce between export, default export and * as export?
+=> These are the types for exportin the components, where the import for default has no {}, for normal we have {} and * gives all of them
+
+Q.What is importance of config file.
+=> The config file isused for the store of the constants and hardcoded data and urls.
+
+Q.What are react hooks?
+=> These are the simplefunctions of react, that has there functionality to do some thing.
+
+Q.Why do we need useState hook?
+=> useState, is used to create local state variables of the component. which are tracked by the react for re-rendering when changes.
+
+Q. what is state?
+=> state is the react object that contains info about the component.

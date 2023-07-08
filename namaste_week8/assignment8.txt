@@ -1,0 +1,21 @@
+Q.How to create nested routes react-router-dom configuration?
+=>child of child elements using children as key and giving path as "profile".
+
+Q.What is difference between hash router vs browser router?
+=> hash router:- its client side routing, it keeps hash portion of url to keep ui in sync.
+=> browser router:- it helps in managing the path.
+
+Q.order of life cycle methods?
+=> constructer -> render -> componentDidMount -> componentDidUpdate -> componentWillUnmount(when you leave the page)
+
+Q.when componentDidMount is used?
+=> after initial render to make some api calls and make side effects.
+
+Q.when componentWillUnmount is called?
+=> on leaving the page it will be called to clear some mess things on page.
+
+Q.super(props) in construcetr why?
+=> for using this in the constructer and initalize state for construcer using this.
+
+Q.async in useEffect callback?
+=> async implicitly resturns promise but useCallBack expects cleanup function or nothing.
