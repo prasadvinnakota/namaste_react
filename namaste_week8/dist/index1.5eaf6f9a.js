@@ -3010,7 +3010,7 @@ const appRouter = (0, _reactRouterDom.createBrowserRouter)([
             },
             {
                 path: "/",
-                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyDefault.default), {}, void 0, false, {
+                element: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _bodyClassComponentDefault.default), {}, void 0, false, {
                     fileName: "src/script1.js",
                     lineNumber: 37,
                     columnNumber: 25
@@ -33315,9 +33315,7 @@ const Body = ()=>{
     const mockDataRestautListForShowingShimemer = (0, _config.restaurentList);
     (0, _react.useEffect)(()=>{
         const fetchDataFromCall = fetchData();
-    }, [
-        searchText
-    ]);
+    }, []);
     async function fetchData() {
         try {
             const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING");
@@ -33344,14 +33342,14 @@ const Body = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 43,
+                        lineNumber: 44,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                         children: searchText
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 46,
+                        lineNumber: 47,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -33363,13 +33361,13 @@ const Body = ()=>{
                         children: "Serach"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 47,
+                        lineNumber: 48,
                         columnNumber: 13
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 42,
+                lineNumber: 43,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33377,13 +33375,13 @@ const Body = ()=>{
                 children: mockDataRestautListForShowingShimemer?.map((restaurent, index)=>{
                     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _shimmerJsDefault.default), {}, restaurent.data.id, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 52,
+                        lineNumber: 53,
                         columnNumber: 28
                     }, undefined);
                 })
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 49,
+                lineNumber: 50,
                 columnNumber: 9
             }, undefined)
         ]
@@ -33401,7 +33399,7 @@ const Body = ()=>{
                         }
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 58,
+                        lineNumber: 59,
                         columnNumber: 13
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("button", {
@@ -33412,13 +33410,13 @@ const Body = ()=>{
                         children: "Serach"
                     }, void 0, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 61,
+                        lineNumber: 62,
                         columnNumber: 12
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/Body.js",
-                lineNumber: 57,
+                lineNumber: 58,
                 columnNumber: 9
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -33430,24 +33428,24 @@ const Body = ()=>{
                             restaurant: restaurent.data
                         }, void 0, false, {
                             fileName: "src/components/Body.js",
-                            lineNumber: 72,
+                            lineNumber: 73,
                             columnNumber: 25
                         }, undefined)
                     }, restaurent.data.id, false, {
                         fileName: "src/components/Body.js",
-                        lineNumber: 71,
+                        lineNumber: 72,
                         columnNumber: 25
                     }, undefined);
                 }) : /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
                     children: "Nothing to show"
                 }, void 0, false, {
                     fileName: "src/components/Body.js",
-                    lineNumber: 76,
+                    lineNumber: 77,
                     columnNumber: 22
                 }, undefined)
             }, void 0, false, {
                 fileName: "src/components/Body.js",
-                lineNumber: 66,
+                lineNumber: 67,
                 columnNumber: 9
             }, undefined)
         ]
@@ -35855,6 +35853,7 @@ class BodyClassComponet extends (0, _reactDefault.default).Component {
         }, 1000);
     }
     componentDidUpdate(prevProps, prevState) {
+        console.log("hi");
         if (prevState.count !== this.state.count) {
             console.log(prevState, this.state, prevProps);
             console.log("hi");
@@ -35871,7 +35870,7 @@ class BodyClassComponet extends (0, _reactDefault.default).Component {
                     children: console.log(this.state.data)
                 }, void 0, false, {
                     fileName: "src/components/BodyClassComponent.js",
-                    lineNumber: 46,
+                    lineNumber: 48,
                     columnNumber: 13
                 }, this),
                 this.state?.data?.map((res)=>{
@@ -35879,7 +35878,7 @@ class BodyClassComponet extends (0, _reactDefault.default).Component {
                         data: res.data.id
                     }, res.data.id, false, {
                         fileName: "src/components/BodyClassComponent.js",
-                        lineNumber: 49,
+                        lineNumber: 51,
                         columnNumber: 24
                     }, this);
                 })
@@ -35894,7 +35893,7 @@ exports.default = BodyClassComponet;
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","./Shimmer":"g6ZGj","./RestrCard":"8LJJ1","react":"21dqq","./RestroCardClassComponent":"hS1Yu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"hS1Yu":[function(require,module,exports) {
+},{"react/jsx-dev-runtime":"iTorj","./Shimmer":"g6ZGj","./RestrCard":"8LJJ1","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru","react":"21dqq","./RestroCardClassComponent":"hS1Yu"}],"hS1Yu":[function(require,module,exports) {
 var $parcel$ReactRefreshHelpers$0900 = require("@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js");
 var prevRefreshReg = window.$RefreshReg$;
 var prevRefreshSig = window.$RefreshSig$;
@@ -35908,22 +35907,20 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 class RestroCardClassComponent extends (0, _reactDefault.default).Component {
     constructor(props){
+        console.log("hi");
         super(props);
         console.log(this.props) // we need super(props) to get access this. if this is not there we cant initialize state
         ;
     }
     async componentDidMount() {
-        console.log(this.props);
         console.log("child");
-        const data = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=12.9351929&lng=77.62448069999999&page_type=DESKTOP_WEB_LISTING");
-        const json = await data.json();
     }
     render() {
         return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
             children: this.props.data
         }, void 0, false, {
             fileName: "src/components/RestroCardClassComponent.js",
-            lineNumber: 24,
+            lineNumber: 22,
             columnNumber: 12
         }, this);
     }

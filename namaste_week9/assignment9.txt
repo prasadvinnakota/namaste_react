@@ -1,0 +1,11 @@
+Q.Why and when we need lazy?
+=> When tha applicatio is large we divide the code into chunks to provide dynamic loading this is why we need loazy.
+
+Q.What is suspense?
+=>Suspense is from react and its is used for handling the error caused by dynamic imports when the page is not available.
+
+Q.advantages and disadvantages of code splitting process?
+=>It can drease the overall performance load but when we apply these the depency and other become more, increase complexity for testing and more network calls
+
+Q.whan and why do we need suspense?
+=>Suspense is from react and its is used for handling the error caused by dynamic imports when the page is not available. waits for data until load is complete.

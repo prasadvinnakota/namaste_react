@@ -27,8 +27,6 @@ class BodyClassComponet extends React.Component
     }
     componentDidUpdate(prevProps, prevState)
     {
-        console.log("hi")
-
         if(prevState.count !== this.state.count){
         console.log(prevState,this.state, prevProps)    
         console.log("hi")
